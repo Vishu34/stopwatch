@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color:white;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+}
+.container{
+    text-align: center;
+    font-size:100px;
+ 
+}
+
+#btn1{
+   background-color:green;
+   height:50px;
+   width:100px;
+   border:2px solid white;
+   border-radius:30px;
+   font-weight: bold;
+   font-size:15px;
+   text-transform: uppercase;;
+}
+#btn2{
+   background-color:yellow;
+   height:50px;
+   width:100px;
+   border-radius:30px;
+   border:2px solid white;
+   font-weight: bold;
+   font-size:15px;
+   text-transform: uppercase;;
+}
+#btn3{
+   background-color: red;
+   height:50px;
+   width:100px;
+   border-radius:30px;
+   border:2px solid white;
+   font-weight: bold;
+   font-size:15px;
+   text-transform: uppercase;;
+}
+@media screen and (max-width:860px) {
+   .container{
+   font-size: 30px;
+   } 
+   
+}
